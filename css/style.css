@@ -45,21 +45,21 @@ h3{
     font-size: 1.5rem;
 }
 
-.download-btn{
+#download-btn{
     margin: 5% 7% 0% 0%;
 
 }
 
 .car-image{
     width: 80%;
-    
-    
+    position: static;
+    margin-top: 100px;
 }
 
 .car-image:hover{
 transition: all 0.5s;
 transform: scale(1.5);
-position: absolute;
+
 }
 
 /*===============================Feature Section==================================================*/
@@ -67,7 +67,7 @@ position: absolute;
 #feature-sec{
     padding: 5% 15%;
     text-align: center;
-    position: relative;
+
 }
 
 .icon{
@@ -93,7 +93,7 @@ transform: rotate(360deg);
 /*==================Review Section ===========================*/
 #reviews{
     
-    background-color: rgba(1, 180, 156, 0.979);
+    background-color: rgba(6, 134, 117, 0.979);
     text-align: center;
     color: white;
 }
@@ -119,11 +119,11 @@ transform: rotate(360deg);
 #press{
     padding: 0% 10%;
     text-align: center;
-    background-color: rgba(1, 180, 156, 0.979);
+    background-color: rgba(6, 134, 117, 0.979);
 }
 
 #press img{
-    width: 10%;
+    width: 7%;
     margin: 60px;   
 }
 
@@ -145,16 +145,17 @@ transform: rotate(360deg);
     font-weight: 200;
 }
 /*==================Download Section ===========================*/
-.download{
+#download{
     background-color: rgba(1, 180, 156, 0.979);
     text-align: center;
     padding: 100px;
 }
 
-.download h3{
+#download h3{
     padding: 0px 100px 0px 100px;
     margin-bottom: 70px;
     font-weight: 900;
+    text-align: center;
 }
 
 .app{
@@ -172,4 +173,27 @@ transform: rotate(360deg);
 
 #fticon a{
     margin: 15px;
+    
+}
+
+/*==================Query===========================*/
+
+@media (max-width: 376px){
+    .car-image{
+        position: static;
+        margin-top: 100px;
+    }
+
+    #title{
+        text-align: center;
+    }
+
+    .download h3{
+        text-align: center;
+    }
+
+    .app{
+        margin-bottom: 50px;
+    }
+   
 }
